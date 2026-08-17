@@ -1,0 +1,2591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Md Hassan | Product Executive</title>
+
+    <meta name="description"
+        content="Portfolio of Md Hassan, Product Executive in Product Management Team with experience in Ayurvedic and Unani healthcare products.">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        medical: {
+                            50: "#f0fdfa",
+                            100: "#ccfbf1",
+                            500: "#14b8a6",
+                            600: "#0d9488",
+                            700: "#0f766e",
+                            900: "#134e4a"
+                        }
+                    },
+
+                    animation: {
+                        "float": "float 5s ease-in-out infinite",
+                        "fade-up": "fadeUp .8s ease-out forwards"
+                    },
+
+                    keyframes: {
+                        float: {
+                            "0%, 100%": {
+                                transform: "translateY(0)"
+                            },
+                            "50%": {
+                                transform: "translateY(-12px)"
+                            }
+                        },
+
+                        fadeUp: {
+                            "0%": {
+                                opacity: "0",
+                                transform: "translateY(25px)"
+                            },
+                            "100%": {
+                                opacity: "1",
+                                transform: "translateY(0)"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system,
+                BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.78);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #0f766e, #06b6d4);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .hero-grid {
+            background-image:
+                linear-gradient(rgba(20, 184, 166, .06) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(20, 184, 166, .06) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+
+        .blob {
+            filter: blur(70px);
+            opacity: .25;
+        }
+
+        .image-card {
+            transition: transform .35s ease, box-shadow .35s ease;
+        }
+
+        .image-card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 25px 50px rgba(15, 118, 110, .15);
+        }
+
+        .timeline-line {
+            background: linear-gradient(
+                to bottom,
+                #14b8a6,
+                #06b6d4,
+                transparent
+            );
+        }
+    </style>
+</head>
+
+
+<body class="bg-slate-50 text-slate-800">
+
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+
+<header class="fixed top-0 left-0 right-0 z-50">
+
+    <nav class="glass border-b border-slate-200/70">
+
+        <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
+
+            <div class="h-20 flex items-center justify-between">
+
+                <a href="#home" class="flex items-center gap-3">
+
+                    <div
+                        class="w-11 h-11 rounded-xl bg-medical-600 text-white
+                        flex items-center justify-center
+                        shadow-lg shadow-teal-600/20">
+
+                        <svg class="w-6 h-6"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24">
+
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9 12h6m-3-3v6m8-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+
+                        </svg>
+
+                    </div>
+
+                    <div>
+
+                        <h1 class="font-bold text-xl text-slate-900">
+                            Md Hassan
+                        </h1>
+
+                        <p class="text-xs text-medical-700">
+                            Product Executive
+                        </p>
+
+                    </div>
+
+                </a>
+
+
+                <!-- Desktop Menu -->
+
+                <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+
+                    <a href="#home"
+                        class="hover:text-medical-600 transition">
+                        Home
+                    </a>
+
+                    <a href="#about"
+                        class="hover:text-medical-600 transition">
+                        About
+                    </a>
+
+                    <a href="#experience"
+                        class="hover:text-medical-600 transition">
+                        Experience
+                    </a>
+
+                    <a href="#education"
+                        class="hover:text-medical-600 transition">
+                        Education
+                    </a>
+
+                    <a href="#skills"
+                        class="hover:text-medical-600 transition">
+                        Skills
+                    </a>
+
+                    <a href="#projects"
+                        class="hover:text-medical-600 transition">
+                        Project
+                    </a>
+
+                    <a href="#contact"
+                        class="px-5 py-2.5 rounded-full
+                        bg-medical-600 text-white
+                        hover:bg-medical-700 transition
+                        shadow-lg shadow-teal-600/20">
+
+                        Contact
+
+                    </a>
+
+                </div>
+
+
+                <!-- Mobile Button -->
+
+                <button id="menuBtn"
+                    class="md:hidden w-11 h-11 rounded-xl
+                    border border-slate-200
+                    flex items-center justify-center">
+
+                    <svg class="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24">
+
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+
+                    </svg>
+
+                </button>
+
+            </div>
+
+
+            <!-- Mobile Menu -->
+
+            <div id="mobileMenu" class="hidden md:hidden pb-5">
+
+                <div class="flex flex-col gap-2 pt-3">
+
+                    <a href="#home"
+                        class="mobile-link px-4 py-2 rounded-lg hover:bg-teal-50">
+                        Home
+                    </a>
+
+                    <a href="#about"
+                        class="mobile-link px-4 py-2 rounded-lg hover:bg-teal-50">
+                        About
+                    </a>
+
+                    <a href="#experience"
+                        class="mobile-link px-4 py-2 rounded-lg hover:bg-teal-50">
+                        Experience
+                    </a>
+
+                    <a href="#education"
+                        class="mobile-link px-4 py-2 rounded-lg hover:bg-teal-50">
+                        Education
+                    </a>
+
+                    <a href="#skills"
+                        class="mobile-link px-4 py-2 rounded-lg hover:bg-teal-50">
+                        Skills
+                    </a>
+
+                    <a href="#projects"
+                        class="mobile-link px-4 py-2 rounded-lg hover:bg-teal-50">
+                        Project
+                    </a>
+
+                    <a href="#contact"
+                        class="mobile-link px-4 py-2 rounded-lg
+                        bg-teal-600 text-white">
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section id="home"
+    class="relative min-h-screen flex items-center
+    overflow-hidden hero-grid pt-28">
+
+    <div
+        class="absolute -top-32 -left-32
+        w-96 h-96 bg-teal-400
+        rounded-full blob">
+    </div>
+
+    <div
+        class="absolute bottom-0 -right-32
+        w-96 h-96 bg-cyan-400
+        rounded-full blob">
+    </div>
+
+
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10 w-full">
+
+        <div class="grid lg:grid-cols-2 gap-14 items-center">
+
+
+            <!-- Hero Content -->
+
+            <div class="animate-fade-up">
+
+                <div
+                    class="inline-flex items-center gap-2
+                    px-4 py-2 rounded-full
+                    bg-teal-50 border border-teal-100
+                    text-teal-700 text-sm font-medium mb-7">
+
+                    <span
+                        class="w-2 h-2 rounded-full
+                        bg-teal-500 animate-pulse">
+                    </span>
+
+                    Product Executive | PMT
+
+                </div>
+
+
+                <h2
+                    class="text-5xl sm:text-6xl lg:text-7xl
+                    font-extrabold tracking-tight
+                    text-slate-950 leading-[1.05]">
+
+                    Hello, I'm
+
+                    <span class="gradient-text block mt-2">
+                        Md Hassan
+                    </span>
+
+                </h2>
+
+
+                <p
+                    class="mt-7 text-lg sm:text-xl
+                    text-slate-600 max-w-xl
+                    leading-relaxed">
+
+                    Product Executive with experience in
+                    Product Management Team (PMT) for Ayurvedic
+                    and Unani healthcare products,
+                    promotional strategy, brand communication
+                    and marketing collateral development.
+
+                </p>
+
+
+                <div class="flex flex-wrap gap-4 mt-9">
+
+                    <a href="#about"
+                        class="px-7 py-3.5 rounded-full
+                        bg-medical-600 text-white
+                        font-semibold
+                        hover:bg-medical-700 transition
+                        shadow-xl shadow-teal-600/20">
+
+                        Explore My Profile
+
+                    </a>
+
+
+                    <a href="#contact"
+                        class="px-7 py-3.5 rounded-full
+                        border border-slate-300
+                        bg-white font-semibold
+                        hover:border-teal-500
+                        hover:text-teal-700 transition">
+
+                        Get In Touch
+
+                    </a>
+
+                </div>
+
+
+                <div
+                    class="flex flex-wrap gap-5 mt-10
+                    text-sm text-slate-500">
+
+                    <div class="flex items-center gap-2">
+
+                        <span
+                            class="w-8 h-8 rounded-lg
+                            bg-teal-100 text-teal-700
+                            flex items-center justify-center">
+
+                            ✓
+
+                        </span>
+
+                        Ayurvedic & Unani
+
+                    </div>
+
+
+                    <div class="flex items-center gap-2">
+
+                        <span
+                            class="w-8 h-8 rounded-lg
+                            bg-cyan-100 text-cyan-700
+                            flex items-center justify-center">
+
+                            ✓
+
+                        </span>
+
+                        Product Management
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Hero Image -->
+
+            <div
+            class="relative flex justify-center
+            lg:justify-end animate-float">
+        
+            <div
+                class="relative
+                w-[300px] sm:w-[380px] lg:w-[450px]">
+        
+                <!-- Background Shape -->
+                <div
+                    class="absolute inset-0
+                    bg-gradient-to-br
+                    from-teal-100 to-cyan-100
+                    rounded-[3rem] rotate-6">
+                </div>
+        
+                <!-- Main Photo -->
+                <div
+                    class="relative
+                    h-[500px] sm:h-[560px]
+                    bg-white rounded-[3rem]
+                    shadow-2xl
+                    border border-white
+                    overflow-hidden">
+        
+                    <img
+                        src="images/portrait.jpeg"
+                        alt="Md Hassan"
+                        class="w-full h-full object-cover">
+        
+                </div>
+        
+        
+                <!-- Quote Below Photo -->
+        
+                <div
+                    class="relative mt-8 px-3 sm:px-5">
+        
+                    <p
+                        class="text-center
+                        text-slate-600
+                        text-sm sm:text-base
+                        leading-7
+                        italic
+                        font-medium">
+        
+                        "Ayurvedic and Unani medicine carries centuries
+                        of proven wellness. My mission is to give these
+                        timeless therapies a modern, credible, and
+                        market-leading voice that builds lasting trust
+                        with prescribers and consumers alike."
+        
+                    </p>
+        
+                </div>
+        
+        
+                <!-- Floating Industry Card -->
+        
+                <div
+                    class="absolute -left-8 top-1
+                    hidden sm:flex items-center gap-3
+                    bg-white p-4 rounded-2xl
+                    shadow-xl border border-slate-100">
+        
+                    <div
+                        class="w-11 h-11 rounded-xl
+                        bg-teal-100
+                        flex items-center justify-center
+                        text-xl">
+        
+                        💊
+        
+                    </div>
+        
+                    <div>
+        
+                        <p class="text-xs text-slate-500">
+                            Industry
+                        </p>
+        
+                        <p class="font-bold text-slate-900">
+                            Pharmaceutical
+                        </p>
+        
+                    </div>
+        
+                </div>
+        
+        
+                <!-- Floating Focus Card -->
+        
+                <div
+                class="absolute -right-8 bottom-32
+                hidden sm:flex items-center gap-3
+                bg-white p-4 rounded-2xl
+                shadow-xl border border-slate-100">
+        
+                    <div
+                        class="w-11 h-11 rounded-xl
+                        bg-cyan-100
+                        flex items-center justify-center
+                        text-xl">
+        
+                        🧪
+        
+                    </div>
+        
+                    <div>
+        
+                        <p class="text-xs text-slate-500">
+                            Focus
+                        </p>
+        
+                        <p class="font-bold text-slate-900">
+                            Product Management
+                        </p>
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     ABOUT
+========================================================= -->
+
+<section id="about" class="py-24 bg-white">
+
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
+
+        <div class="max-w-4xl">
+
+            <p
+                class="text-sm uppercase
+                tracking-[.2em]
+                font-bold text-teal-600">
+
+                About Me
+
+            </p>
+
+
+            <h2
+                class="text-4xl sm:text-5xl
+                font-bold text-slate-950 mt-3">
+
+                Building products,
+                <span class="text-teal-600">
+                    brands & communication.
+                </span>
+
+            </h2>
+
+
+            <p
+                class="mt-6 text-slate-600
+                text-lg leading-8">
+
+                I am Md Hassan, a results-driven Product Executive
+                working in the Product Management Team (PMT) of an
+                Ayurvedic and Unani medicine manufacturing company.
+
+                I have experience in translating classical formulation
+                science into modern brand strategies, promotional
+                toolkits, packaging designs and scientific communication
+                for healthcare products.
+
+            </p>
+
+
+            <p
+                class="mt-5 text-slate-600
+                text-lg leading-8">
+
+                I also collaborate with ASMs, RSMs and ZSMs to provide
+                effective detailing tools and promotional inputs that
+                support doctor engagement, prescription growth and
+                market penetration.
+
+            </p>
+
+        </div>
+
+
+        <div
+            class="grid md:grid-cols-3
+            gap-6 mt-14">
+
+
+            <div
+                class="p-7 rounded-3xl
+                bg-slate-50
+                border border-slate-100
+                hover:-translate-y-1 transition">
+
+                <div
+                    class="w-14 h-14 rounded-2xl
+                    bg-teal-100 text-teal-700
+                    flex items-center justify-center
+                    text-2xl">
+
+                    📊
+
+                </div>
+
+                <h3
+                    class="font-bold text-xl mt-5">
+
+                    Product Strategy
+
+                </h3>
+
+                <p
+                    class="text-slate-600 mt-3 leading-7">
+
+                    Product strategy, promotional planning
+                    and campaign development for pharmaceutical
+                    formulations.
+
+                </p>
+
+            </div>
+
+
+
+            <div
+                class="p-7 rounded-3xl
+                bg-slate-50
+                border border-slate-100
+                hover:-translate-y-1 transition">
+
+                <div
+                    class="w-14 h-14 rounded-2xl
+                    bg-cyan-100 text-cyan-700
+                    flex items-center justify-center
+                    text-2xl">
+
+                    🎨
+
+                </div>
+
+                <h3
+                    class="font-bold text-xl mt-5">
+
+                    Creative Communication
+
+                </h3>
+
+                <p
+                    class="text-slate-600 mt-3 leading-7">
+
+                    Promotional designs, visual mockups,
+                    packaging concepts, LBLs and doctor
+                    communication materials.
+
+                </p>
+
+            </div>
+
+
+
+            <div
+                class="p-7 rounded-3xl
+                bg-slate-50
+                border border-slate-100
+                hover:-translate-y-1 transition">
+
+                <div
+                    class="w-14 h-14 rounded-2xl
+                    bg-emerald-100 text-emerald-700
+                    flex items-center justify-center
+                    text-2xl">
+
+                    🤝
+
+                </div>
+
+                <h3
+                    class="font-bold text-xl mt-5">
+
+                    Sales Collaboration
+
+                </h3>
+
+                <p
+                    class="text-slate-600 mt-3 leading-7">
+
+                    Working closely with ASMs, RSMs and ZSMs
+                    to support field sales teams and market
+                    requirements.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     EXPERIENCE
+========================================================= -->
+
+<section id="experience" class="py-24 bg-slate-50">
+
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
+
+        <div class="text-center max-w-3xl mx-auto">
+
+            <p
+                class="text-sm uppercase
+                tracking-[.2em]
+                font-bold text-teal-600">
+
+                Professional Experience
+
+            </p>
+
+
+            <h2
+                class="text-4xl sm:text-5xl
+                font-bold text-slate-950 mt-3">
+
+                Product Management Experience
+
+            </h2>
+
+
+            <p class="text-slate-600 mt-5">
+
+                Professional experience in pharmaceutical
+                product management, promotional strategy
+                and field-force collaboration.
+
+            </p>
+
+        </div>
+
+
+        <div
+            class="max-w-5xl mx-auto mt-14">
+
+            <div
+                class="bg-white rounded-[2rem]
+                p-7 sm:p-10
+                border border-slate-100
+                shadow-sm">
+
+                <div
+                    class="flex flex-col md:flex-row
+                    md:items-start
+                    md:justify-between gap-5">
+
+                    <div class="flex gap-5">
+
+                        <div
+                            class="w-16 h-16 rounded-2xl
+                            bg-teal-100 text-teal-700
+                            flex items-center justify-center
+                            text-3xl shrink-0">
+
+                            💼
+
+                        </div>
+
+                        <div>
+
+                            <h3
+                                class="text-2xl
+                                sm:text-3xl
+                                font-bold">
+
+                                Product Executive
+
+                            </h3>
+
+                            <p
+                                class="text-teal-700
+                                font-semibold mt-1">
+
+                                Product Management Team (PMT)
+
+                            </p>
+
+                            <p
+                                class="text-slate-500 mt-1">
+
+                                DRUGS LABORATORIES
+
+                            </p>
+
+                            <p
+                                class="text-slate-500 text-sm mt-1">
+
+                                Meerut, Uttar Pradesh
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <span
+                        class="self-start
+                        px-4 py-2 rounded-full
+                        bg-teal-50
+                        text-teal-700
+                        text-sm font-bold">
+
+                        1 Year • Present
+
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="grid md:grid-cols-2
+                    gap-5 mt-10">
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-slate-50">
+
+                        <h4
+                            class="font-bold text-lg">
+
+                            Product Strategy & Launch
+
+                        </h4>
+
+                        <p
+                            class="text-slate-600
+                            mt-2 leading-7">
+
+                            Conceptualized and executed
+                            end-to-end promotional campaigns
+                            for Ayurvedic and Unani therapeutic
+                            formulations including digestive care,
+                            liver care, herbal iron tonics,
+                            brain tonic and vitality formulations.
+
+                        </p>
+
+                    </div>
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-slate-50">
+
+                        <h4
+                            class="font-bold text-lg">
+
+                            Collateral Development
+
+                        </h4>
+
+                        <p
+                            class="text-slate-600
+                            mt-2 leading-7">
+
+                            Designed and supervised production
+                            of LBLs, doctor reminder cards,
+                            sample kits and point-of-sale
+                            displays including danglers and posters.
+
+                        </p>
+
+                    </div>
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-slate-50">
+
+                        <h4
+                            class="font-bold text-lg">
+
+                            Sales Force Collaboration
+
+                        </h4>
+
+                        <p
+                            class="text-slate-600
+                            mt-2 leading-7">
+
+                            Partnered closely with Zonal Sales
+                            Managers, Regional Sales Managers and
+                            Area Sales Managers to deliver timely
+                            inputs and address ground-level
+                            market challenges.
+
+                        </p>
+
+                    </div>
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-slate-50">
+
+                        <h4
+                            class="font-bold text-lg">
+
+                            Prescriber Engagement
+
+                        </h4>
+
+                        <p
+                            class="text-slate-600
+                            mt-2 leading-7">
+
+                            Formulated scientific communication
+                            and detailing stories highlighting
+                            active natural ingredients to support
+                            doctor conversions and prescription share.
+
+                        </p>
+
+                    </div>
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-slate-50 md:col-span-2">
+
+                        <h4
+                            class="font-bold text-lg">
+
+                            Campaign & Target Support
+
+                        </h4>
+
+                        <p
+                            class="text-slate-600
+                            mt-2 leading-7">
+
+                            Designed promotional drives and
+                            motivational collateral for field
+                            sales teams, contributing to consistent
+                            market target achievements.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     EDUCATION
+========================================================= -->
+
+<section id="education" class="py-24 bg-white">
+
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
+
+        <div class="text-center max-w-3xl mx-auto">
+
+            <p
+                class="text-sm uppercase
+                tracking-[.2em]
+                font-bold text-teal-600">
+
+                Education
+
+            </p>
+
+
+            <h2
+                class="text-4xl sm:text-5xl
+                font-bold text-slate-950 mt-3">
+
+                Academic Journey
+
+            </h2>
+
+
+            <p class="text-slate-600 mt-5">
+
+                Educational background and professional
+                academic journey.
+
+            </p>
+
+        </div>
+
+
+        <div class="max-w-4xl mx-auto mt-14 relative">
+
+            <div
+                class="absolute left-6 top-0 bottom-0
+                w-px timeline-line
+                hidden sm:block">
+            </div>
+
+
+            <!-- B.Pharm -->
+
+            <div
+                class="relative flex gap-6 mb-10">
+
+                <div
+                    class="relative z-10
+                    w-12 h-12 rounded-full
+                    bg-teal-600 text-white
+                    flex items-center justify-center
+                    shadow-lg shrink-0">
+
+                    🎓
+
+                </div>
+
+
+                <div
+                    class="bg-slate-50
+                    p-7 rounded-3xl
+                    border border-slate-100
+                    flex-1">
+
+                    <span
+                        class="inline-block px-3 py-1
+                        rounded-full
+                        bg-teal-50 text-teal-700
+                        text-sm font-semibold">
+
+                        2025
+
+                    </span>
+
+
+                    <h3
+                        class="text-2xl
+                        font-bold mt-4">
+
+                        Bachelor of Pharmacy
+
+                    </h3>
+
+
+                    <p
+                        class="text-teal-700
+                        font-medium mt-2">
+
+                        Abss Institute of Technology, Meerut
+
+                    </p>
+
+
+                    <p
+                        class="text-slate-600
+                        mt-3 leading-7">
+
+                        Bachelor of Pharmacy — B.Pharm
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- MBA -->
+
+            <div
+                class="relative flex gap-6 mb-10">
+
+                <div
+                    class="relative z-10
+                    w-12 h-12 rounded-full
+                    bg-cyan-600 text-white
+                    flex items-center justify-center
+                    shadow-lg shrink-0">
+
+                    📚
+
+                </div>
+
+
+                <div
+                    class="bg-slate-50
+                    p-7 rounded-3xl
+                    border border-slate-100
+                    flex-1">
+
+                    <span
+                        class="inline-block px-3 py-1
+                        rounded-full
+                        bg-cyan-50 text-cyan-700
+                        text-sm font-semibold">
+
+                        Pursuing
+
+                    </span>
+
+
+                    <h3
+                        class="text-2xl
+                        font-bold mt-4">
+
+                        Master in Business Administration
+
+                    </h3>
+
+
+                    <p
+                        class="text-cyan-700
+                        font-medium mt-2">
+
+                        ARIMT, Meerut
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Intermediate -->
+
+            <div
+                class="relative flex gap-6 mb-10">
+
+                <div
+                    class="relative z-10
+                    w-12 h-12 rounded-full
+                    bg-emerald-600 text-white
+                    flex items-center justify-center
+                    shadow-lg shrink-0">
+
+                    📖
+
+                </div>
+
+
+                <div
+                    class="bg-slate-50
+                    p-7 rounded-3xl
+                    border border-slate-100
+                    flex-1">
+
+                    <span
+                        class="inline-block px-3 py-1
+                        rounded-full
+                        bg-emerald-50 text-emerald-700
+                        text-sm font-semibold">
+
+                        2021
+
+                    </span>
+
+
+                    <h3
+                        class="text-2xl
+                        font-bold mt-4">
+
+                        Intermediate
+
+                    </h3>
+
+
+                    <p
+                        class="text-emerald-700
+                        font-medium mt-2">
+
+                        Udit Narayan Inter College,
+                        Padrauna, Kushinagar
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- High School -->
+
+            <div
+                class="relative flex gap-6">
+
+                <div
+                    class="relative z-10
+                    w-12 h-12 rounded-full
+                    bg-slate-700 text-white
+                    flex items-center justify-center
+                    shadow-lg shrink-0">
+
+                    🏫
+
+                </div>
+
+
+                <div
+                    class="bg-slate-50
+                    p-7 rounded-3xl
+                    border border-slate-100
+                    flex-1">
+
+                    <span
+                        class="inline-block px-3 py-1
+                        rounded-full
+                        bg-slate-100
+                        text-slate-700
+                        text-sm font-semibold">
+
+                        2019
+
+                    </span>
+
+
+                    <h3
+                        class="text-2xl
+                        font-bold mt-4">
+
+                        High School
+
+                    </h3>
+
+
+                    <p
+                        class="text-slate-700
+                        font-medium mt-2">
+
+                        Mission Higher Secondary School,
+                        Parsauni, Kushinagar
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     SKILLS
+========================================================= -->
+
+<section id="skills" class="py-24 bg-slate-50">
+
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
+
+        <div class="grid lg:grid-cols-2
+            gap-16 items-center">
+
+
+            <div>
+
+                <p
+                    class="text-sm uppercase
+                    tracking-[.2em]
+                    font-bold text-teal-600">
+
+                    Expertise
+
+                </p>
+
+
+                <h2
+                    class="text-4xl sm:text-5xl
+                    font-bold text-slate-950 mt-3">
+
+                    Technical & Creative Skills
+
+                </h2>
+
+
+                <p
+                    class="text-slate-600
+                    text-lg leading-8 mt-6">
+
+                    Creative, design, office and collaboration
+                    skills developed through professional
+                    healthcare product management work.
+
+                </p>
+
+
+                <div
+                    class="grid sm:grid-cols-2
+                    gap-4 mt-10">
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-white border
+                        border-slate-100">
+
+                        <span class="text-2xl">
+                            🎨
+                        </span>
+
+                        <h3 class="font-bold mt-3">
+                            Visual Mockups
+                        </h3>
+
+                    </div>
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-white border
+                        border-slate-100">
+
+                        <span class="text-2xl">
+                            🖌️
+                        </span>
+
+                        <h3 class="font-bold mt-3">
+                            Graphic Design Concepts
+                        </h3>
+
+                    </div>
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-white border
+                        border-slate-100">
+
+                        <span class="text-2xl">
+                            ✨
+                        </span>
+
+                        <h3 class="font-bold mt-3">
+                            AI Creative Tools
+                        </h3>
+
+                    </div>
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-white border
+                        border-slate-100">
+
+                        <span class="text-2xl">
+                            🖼️
+                        </span>
+
+                        <h3 class="font-bold mt-3">
+                            Canva
+                        </h3>
+
+                    </div>
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-white border
+                        border-slate-100">
+
+                        <span class="text-2xl">
+                            ✏️
+                        </span>
+
+                        <h3 class="font-bold mt-3">
+                            CorelDraw
+                        </h3>
+
+                    </div>
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-white border
+                        border-slate-100">
+
+                        <span class="text-2xl">
+                            💻
+                        </span>
+
+                        <h3 class="font-bold mt-3">
+                            MS Office
+                        </h3>
+
+                    </div>
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-white border
+                        border-slate-100">
+
+                        <span class="text-2xl">
+                            ☁️
+                        </span>
+
+                        <h3 class="font-bold mt-3">
+                            Google Workspace
+                        </h3>
+
+                    </div>
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-white border
+                        border-slate-100">
+
+                        <span class="text-2xl">
+                            🌐
+                        </span>
+
+                        <h3 class="font-bold mt-3">
+                            English & Hindi
+                        </h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Professional Goal -->
+
+            <div
+                class="bg-slate-950
+                rounded-[2rem]
+                p-8 sm:p-10
+                text-white">
+
+                <div
+                    class="flex items-center
+                    gap-4 mb-8">
+
+                    <div
+                        class="w-14 h-14 rounded-2xl
+                        bg-teal-500/20
+                        text-teal-400
+                        flex items-center
+                        justify-center
+                        text-2xl">
+
+                        ✦
+
+                    </div>
+
+
+                    <div>
+
+                        <p class="text-slate-400 text-sm">
+                            Professional Profile
+                        </p>
+
+                        <h3 class="text-xl font-bold">
+                            Product Management
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <p
+                    class="text-slate-300
+                    leading-8">
+
+                    Experienced in developing promotional
+                    strategies, scientific communication,
+                    product collateral, packaging concepts
+                    and field-force support for Ayurvedic
+                    and Unani healthcare products.
+
+                </p>
+
+
+                <div
+                    class="grid grid-cols-2
+                    gap-5 mt-10">
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-white/5
+                        border border-white/10">
+
+                        <p
+                            class="text-2xl
+                            font-bold text-teal-400">
+
+                            PMT
+
+                        </p>
+
+                        <p
+                            class="text-sm
+                            text-slate-400 mt-1">
+
+                            Product Management Team
+
+                        </p>
+
+                    </div>
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-white/5
+                        border border-white/10">
+
+                        <p
+                            class="text-2xl
+                            font-bold text-cyan-400">
+
+                            1+
+
+                        </p>
+
+                        <p
+                            class="text-sm
+                            text-slate-400 mt-1">
+
+                            Year Experience
+
+                        </p>
+
+                    </div>
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-white/5
+                        border border-white/10">
+
+                        <p
+                            class="text-2xl
+                            font-bold text-emerald-400">
+
+                            3
+
+                        </p>
+
+                        <p
+                            class="text-sm
+                            text-slate-400 mt-1">
+
+                            Sales Management Levels
+
+                        </p>
+
+                    </div>
+
+
+                    <div
+                        class="p-5 rounded-2xl
+                        bg-white/5
+                        border border-white/10">
+
+                        <p
+                            class="text-2xl
+                            font-bold text-teal-400">
+
+                            A&U
+
+                        </p>
+
+                        <p
+                            class="text-sm
+                            text-slate-400 mt-1">
+
+                            Ayurvedic & Unani
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     PHOTO GALLERY
+========================================================= -->
+
+<section class="py-24 bg-white">
+
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
+
+        <div class="text-center max-w-3xl mx-auto">
+
+            <p
+                class="text-sm uppercase
+                tracking-[.2em]
+                font-bold text-teal-600">
+
+                Professional Moments
+
+            </p>
+
+
+            <h2
+                class="text-4xl sm:text-5xl
+                font-bold text-slate-950 mt-3">
+
+                Photo Gallery
+
+            </h2>
+
+
+            <p
+                class="text-slate-600 mt-5">
+
+                A glimpse into professional,
+                academic and personal moments.
+
+            </p>
+
+        </div>
+
+
+        <div
+            class="grid sm:grid-cols-2
+            lg:grid-cols-3
+            gap-6 mt-14">
+
+
+            <div
+                class="image-card rounded-3xl
+                overflow-hidden
+                bg-slate-100">
+
+                <img
+                    src="images/casual.jpeg"
+                    alt="Md Hassan professional"
+                    class="w-full h-[420px]
+                    object-cover">
+
+            </div>
+
+
+            <div
+                class="image-card rounded-3xl
+                overflow-hidden
+                bg-slate-100">
+
+                <img
+                    src="images/formal.jpeg"
+                    alt="Md Hassan professional work"
+                    class="w-full h-[420px]
+                    object-cover">
+
+            </div>
+
+
+            <div
+                class="image-card rounded-3xl
+                overflow-hidden
+                bg-slate-100">
+
+                <img
+                    src="images/lab-1.jpeg"
+                    alt="Md Hassan at work"
+                    class="w-full h-[420px]
+                    object-cover">
+
+            </div>
+
+
+            <div
+                class="image-card rounded-3xl
+                overflow-hidden
+                bg-slate-100">
+
+                <img
+                    src="images/lab-2.jpeg"
+                    alt="Md Hassan"
+                    class="w-full h-[420px]
+                    object-cover">
+
+            </div>
+
+
+            <div
+                class="image-card rounded-3xl
+                overflow-hidden
+                bg-slate-100">
+
+                <img
+                    src="images/portrait.jpeg"
+                    alt="Md Hassan professional"
+                    class="w-full h-[420px]
+                    object-cover">
+
+            </div>
+
+
+            <div
+                class="image-card rounded-3xl
+                overflow-hidden
+                bg-slate-100">
+
+                <img
+                    src="images/profile-2.jpeg"
+                    alt="Md Hassan"
+                    class="w-full h-[420px]
+                    object-cover">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     PUBLISHED PROJECT
+========================================================= -->
+
+<section id="projects"
+    class="py-24 bg-slate-50">
+
+    <div
+        class="max-w-7xl mx-auto
+        px-5 sm:px-8 lg:px-10">
+
+        <div
+            class="text-center
+            max-w-3xl mx-auto">
+
+            <p
+                class="text-sm uppercase
+                tracking-[.2em]
+                font-bold text-teal-600">
+
+                Published Project
+
+            </p>
+
+
+            <h2
+                class="text-4xl sm:text-5xl
+                font-bold text-slate-950 mt-3">
+
+                Research & Publication
+
+            </h2>
+
+        </div>
+
+
+        <div
+            class="max-w-4xl mx-auto mt-14">
+
+            <div
+                class="bg-white
+                rounded-[2rem]
+                p-8 sm:p-10
+                border border-slate-100
+                shadow-sm">
+
+                <div
+                    class="flex items-start
+                    gap-5">
+
+                    <div
+                        class="w-16 h-16
+                        rounded-2xl
+                        bg-teal-100
+                        text-teal-700
+                        flex items-center
+                        justify-center
+                        text-3xl shrink-0">
+
+                        🔬
+
+                    </div>
+
+
+                    <div>
+
+                        <span
+                            class="inline-block
+                            px-3 py-1
+                            rounded-full
+                            bg-teal-50
+                            text-teal-700
+                            text-sm
+                            font-semibold">
+
+                            Research Publication
+
+                        </span>
+
+
+                        <h3
+                            class="text-2xl
+                            sm:text-3xl
+                            font-bold mt-4
+                            leading-snug">
+
+                            Formulation and Physical
+                            Characterization of Herbs-Based
+                            Gargle Preparation for Effective
+                            Treatment Against Throat Infection
+
+                        </h3>
+
+
+                        <p
+                            class="text-slate-600
+                            mt-5 leading-7">
+
+                            Published in Volume 10 Issue 7,
+                            July-2025 on IJSDR.ORG.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     CERTIFICATIONS
+========================================================= -->
+
+<section class="py-24 bg-white">
+
+    <div
+        class="max-w-7xl mx-auto
+        px-5 sm:px-8 lg:px-10">
+
+
+        <div class="text-center">
+
+            <p
+                class="text-sm uppercase
+                tracking-[.2em]
+                font-bold text-teal-600">
+
+                Achievements
+
+            </p>
+
+
+            <h2
+                class="text-4xl sm:text-5xl
+                font-bold text-slate-950 mt-3">
+
+                Certifications
+
+            </h2>
+
+        </div>
+
+
+        <div
+            class="grid sm:grid-cols-2
+            lg:grid-cols-4
+            gap-6 mt-12">
+
+
+            <div
+                class="p-6 rounded-3xl
+                bg-slate-50
+                border border-slate-100
+                hover:-translate-y-1
+                transition">
+
+                <div
+                    class="w-12 h-12 rounded-xl
+                    bg-teal-100
+                    flex items-center
+                    justify-center
+                    text-xl">
+
+                    🏅
+
+                </div>
+
+
+                <h3
+                    class="font-bold
+                    text-lg mt-5">
+
+                    International Journal of
+                    Scientific Development and Research
+
+                </h3>
+
+            </div>
+
+
+
+            <div
+                class="p-6 rounded-3xl
+                bg-slate-50
+                border border-slate-100
+                hover:-translate-y-1
+                transition">
+
+                <div
+                    class="w-12 h-12 rounded-xl
+                    bg-cyan-100
+                    flex items-center
+                    justify-center
+                    text-xl">
+
+                    📜
+
+                </div>
+
+
+                <h3
+                    class="font-bold
+                    text-lg mt-5">
+
+                    Drug Regulatory Affairs
+
+                </h3>
+
+
+                <p
+                    class="text-slate-500
+                    text-sm mt-2">
+
+                    PharmaState Academy
+
+                </p>
+
+            </div>
+
+
+
+            <div
+                class="p-6 rounded-3xl
+                bg-slate-50
+                border border-slate-100
+                hover:-translate-y-1
+                transition">
+
+                <div
+                    class="w-12 h-12 rounded-xl
+                    bg-emerald-100
+                    flex items-center
+                    justify-center
+                    text-xl">
+
+                    💻
+
+                </div>
+
+
+                <h3
+                    class="font-bold
+                    text-lg mt-5">
+
+                    Working with MS Office 2013
+
+                </h3>
+
+
+                <p
+                    class="text-slate-500
+                    text-sm mt-2">
+
+                    NIIT
+
+                </p>
+
+            </div>
+
+
+
+            <div
+                class="p-6 rounded-3xl
+                bg-slate-50
+                border border-slate-100
+                hover:-translate-y-1
+                transition">
+
+                <div
+                    class="w-12 h-12 rounded-xl
+                    bg-amber-100
+                    flex items-center
+                    justify-center
+                    text-xl">
+
+                    ⭐
+
+                </div>
+
+
+                <h3
+                    class="font-bold
+                    text-lg mt-5">
+
+                    Diabetes Nutrition Certificate
+
+                </h3>
+
+
+                <p
+                    class="text-slate-500
+                    text-sm mt-2">
+
+                    Skill India
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     CONTACT
+========================================================= -->
+
+<section id="contact"
+    class="py-24 bg-slate-950 text-white">
+
+    <div
+        class="max-w-7xl mx-auto
+        px-5 sm:px-8 lg:px-10">
+
+        <div
+            class="grid lg:grid-cols-2
+            gap-14 items-center">
+
+
+            <!-- Contact Information -->
+
+            <div>
+
+                <p
+                    class="text-sm uppercase
+                    tracking-[.2em]
+                    font-bold text-teal-400">
+
+                    Contact
+
+                </p>
+
+
+                <h2
+                    class="text-4xl sm:text-5xl
+                    font-bold mt-3">
+
+                    Let's connect.
+
+                </h2>
+
+
+                <p
+                    class="text-slate-400
+                    text-lg leading-8
+                    mt-6 max-w-xl">
+
+                    For professional opportunities,
+                    healthcare product management,
+                    collaboration and other professional
+                    connections, feel free to get in touch.
+
+                </p>
+
+
+                <div class="space-y-5 mt-10">
+
+
+                    <!-- Email -->
+
+                    <a
+                        href="mailto:hassanansari786ht@gmail.com"
+                        class="flex items-center
+                        gap-4 group">
+
+                        <div
+                            class="w-12 h-12
+                            rounded-xl
+                            bg-white/10
+                            flex items-center
+                            justify-center
+                            text-xl
+                            group-hover:bg-teal-500
+                            transition">
+
+                            ✉
+
+                        </div>
+
+
+                        <div>
+
+                            <p
+                                class="text-xs
+                                text-slate-500">
+
+                                Email
+
+                            </p>
+
+                            <p
+                                class="font-medium
+                                break-all">
+
+                                hassanansari786ht@gmail.com
+
+                            </p>
+
+                        </div>
+
+                    </a>
+
+
+
+                    <!-- Phone -->
+
+                    <a
+                        href="tel:+918601179289"
+                        class="flex items-center
+                        gap-4 group">
+
+                        <div
+                            class="w-12 h-12
+                            rounded-xl
+                            bg-white/10
+                            flex items-center
+                            justify-center
+                            text-xl
+                            group-hover:bg-teal-500
+                            transition">
+
+                            ☎
+
+                        </div>
+
+
+                        <div>
+
+                            <p
+                                class="text-xs
+                                text-slate-500">
+
+                                Phone
+
+                            </p>
+
+                            <p class="font-medium">
+
+                                8601179289
+
+                            </p>
+
+                        </div>
+
+                    </a>
+
+
+
+                    <!-- Location -->
+
+                    <div
+                        class="flex items-center
+                        gap-4">
+
+                        <div
+                            class="w-12 h-12
+                            rounded-xl
+                            bg-white/10
+                            flex items-center
+                            justify-center
+                            text-xl">
+
+                            📍
+
+                        </div>
+
+
+                        <div>
+
+                            <p
+                                class="text-xs
+                                text-slate-500">
+
+                                Location
+
+                            </p>
+
+                            <p class="font-medium">
+
+                                Meerut, Uttar Pradesh
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- LinkedIn -->
+
+                    <a
+                        href="https://www.linkedin.com/in/md-hassan-31608933a"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="flex items-center
+                        gap-4 group">
+
+                        <div
+                            class="w-12 h-12
+                            rounded-xl
+                            bg-white/10
+                            flex items-center
+                            justify-center
+                            text-xl
+                            group-hover:bg-teal-500
+                            transition">
+
+                            in
+
+                        </div>
+
+
+                        <div>
+
+                            <p
+                                class="text-xs
+                                text-slate-500">
+
+                                LinkedIn
+
+                            </p>
+
+                            <p class="font-medium">
+
+                                Md Hassan
+
+                            </p>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Contact Card -->
+
+            <div
+                class="bg-white
+                rounded-[2rem]
+                p-7 sm:p-9
+                text-slate-900">
+
+                <div
+                    class="w-14 h-14
+                    rounded-2xl
+                    bg-teal-100
+                    text-teal-700
+                    flex items-center
+                    justify-center
+                    text-2xl">
+
+                    💼
+
+                </div>
+
+
+                <h3
+                    class="text-2xl
+                    font-bold mt-6">
+
+                    Professional Profile
+
+                </h3>
+
+
+                <p
+                    class="text-slate-500
+                    mt-3 leading-7">
+
+                    Md Hassan<br>
+                    Product Executive<br>
+                    Product Management Team (PMT)<br>
+                    Ayurvedic & Unani Pharmaceutical Industry
+
+                </p>
+
+
+                <div
+                    class="mt-7 space-y-4">
+
+
+                    <a
+                        href="tel:+918601179289"
+                        class="block w-full
+                        py-3.5 rounded-xl
+                        bg-teal-600
+                        text-white
+                        font-bold
+                        text-center
+                        hover:bg-teal-700
+                        transition">
+
+                        Call: 8601179289
+
+                    </a>
+
+
+                    <a
+                        href="mailto:hassanansari786ht@gmail.com"
+                        class="block w-full
+                        py-3.5 rounded-xl
+                        border border-slate-200
+                        text-slate-800
+                        font-bold
+                        text-center
+                        hover:border-teal-500
+                        hover:text-teal-700
+                        transition">
+
+                        Send Email
+
+                    </a>
+
+
+                    <a
+                        href="https://www.linkedin.com/in/md-hassan-31608933a"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="block w-full
+                        py-3.5 rounded-xl
+                        border border-slate-200
+                        text-slate-800
+                        font-bold
+                        text-center
+                        hover:border-teal-500
+                        hover:text-teal-700
+                        transition">
+
+                        View LinkedIn Profile
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     DECLARATION
+========================================================= -->
+
+<section class="py-20 bg-white">
+
+    <div
+        class="max-w-4xl mx-auto
+        px-5 sm:px-8">
+
+        <div
+            class="p-8 sm:p-10
+            rounded-[2rem]
+            bg-slate-50
+            border border-slate-100">
+
+            <div class="flex items-center gap-4">
+
+                <div
+                    class="w-12 h-12
+                    rounded-xl
+                    bg-teal-100
+                    text-teal-700
+                    flex items-center
+                    justify-center">
+
+                    ✓
+
+                </div>
+
+
+                <h2
+                    class="text-2xl
+                    font-bold">
+
+                    Declaration
+
+                </h2>
+
+            </div>
+
+
+            <p
+                class="text-slate-600
+                mt-6 leading-8">
+
+                I hereby declare that all the information stated
+                above in this resume is true, complete, and correct
+                to the best of my knowledge and belief.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer
+    class="bg-slate-950
+    border-t border-white/10">
+
+    <div
+        class="max-w-7xl mx-auto
+        px-5 sm:px-8 lg:px-10
+        py-8">
+
+        <div
+            class="flex flex-col
+            sm:flex-row
+            items-center
+            justify-between
+            gap-4">
+
+            <p
+                class="text-slate-500
+                text-sm">
+
+                © 2026 Md Hassan.
+                All rights reserved.
+
+            </p>
+
+
+            <p
+                class="text-slate-500
+                text-sm">
+
+                Product Executive |
+                Product Management Team
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
+<script>
+
+    const menuBtn = document.getElementById("menuBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+    });
+
+
+    document.querySelectorAll(".mobile-link").forEach(link => {
+
+        link.addEventListener("click", () => {
+
+            mobileMenu.classList.add("hidden");
+
+        });
+
+    });
+
+</script>
+
+
+</body>
+</html>
